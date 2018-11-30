@@ -4,7 +4,7 @@
 
 image:
   repository: humio/humio
-  tag: 1.1.14
+  tag: latest 
   pullPolicy: IfNotPresent
 
 humio:
@@ -19,4 +19,5 @@ resources:
 
 minikube: false
 service:
-  type: ClusterIP # Set this to LoadBalancer if using minikube
+  type: LoadBalancer
+        #  type: ClusterIP # Set this to LoadBalancer if using minikube
