@@ -19,5 +19,5 @@ resources:
 
 minikube: false
 service:
-  type: LoadBalancer
+  type: Rancher-Proxy
         #  type: ClusterIP # Set this to LoadBalancer if using minikube
