@@ -4,7 +4,7 @@
 
 image:
   repository: humio/humio
-  tag: latest 
+  tag: 1.1.14 
   pullPolicy: IfNotPresent
 
 humio:
